@@ -1,0 +1,87 @@
+*Basic*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    /*display: block;*/
+}
+
+/*Body style*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    padding: 25px;
+}
+/*Form-container style*/
+.form-container {
+    width: 80%;
+    height: 420px;
+    margin: 0 auto;
+    margin-left: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+.form-container01{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 333px;
+}
+
+h1 {
+    margin-left: px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+ 
+/*Input field style*/
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.omega{
+    margin-top: 10px;
+    width: 165px;
+}
+
+#animal{
+    width: 310px;
+}
+input [type="text"],
+select,
+textarea {
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+} 
+#name {
+    width: 310px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/*Submit button style*/
+button {
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 204px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
